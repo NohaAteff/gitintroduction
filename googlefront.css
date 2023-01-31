@@ -1,0 +1,21 @@
+body{
+    background-color:azure
+    color: midnightblue;
+    text-align: center;
+    margin-top: 100px;
+}
+input{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 35px;
+}
+#idd{
+    margin-top: 50px;
+    width: 500px;
+    height: 30px;
+    color:navy;
+    font-family: tahoma, sans-serif;
+    border-radius: 20px;
+    border-width: 1px;
+
+}
