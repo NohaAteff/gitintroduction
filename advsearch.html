@@ -12,19 +12,19 @@
     
             <form method="get" action= "https://www.google.com/search" >
                     <p>
-                        <label class="lab" for="all">All of these words: <input class="txtfield" type="text" placeholder="all of these words"/></label>
+                        <label class="lab" for="all">All of these words: <input class="txtfield" type="text" name="as_q" placeholder="all of these words"  /></label>
                    </p>
                    <p>
-                       <label class="lab" for="exactly">Exactly these words: <input class="txtfield" type="text" placeholder=" place your words in double quotes'' orchids''"/></label>
+                       <label class="lab" for="exactly">Exactly these words: <input class="txtfield" type="text" name="as_epq" placeholder=" place your words in double quotes'' orchids''"/></label>
                    </p>
                    <p>
-                       <label class="lab" for="any">Any of these words: <input class="txtfield" type="text" placeholder="but OR between your words, white OR purple"/></label>
+                       <label class="lab" for="any">Any of these words: <input class="txtfield" type="text" name="as_oq" placeholder="but OR between your words, white OR purple"/></label>
                    </p>
                    <p>
-                       <label class="lab" for="none">None of these words: <input class="txtfield" type="text" placeholder="put a minus before the word, -scent"/></label>
+                       <label class="lab" for="none">None of these words: <input class="txtfield" type="text" name="as_eq" placeholder="put a minus before the word, -scent"/></label>
                    </p>
                    <p>
-                       <input class="but" type="submit" value="Search">
+                       <input class="but" type="submit" formaction="https://www.google.com/search" value="Search">
                    </p>
             </form>
        
